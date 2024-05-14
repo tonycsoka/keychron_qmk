@@ -21,3 +21,4 @@ VPATH += $(TOP_DIR)/keyboards/keychron/$(BLUETOOTH_DIR)
 # Work around RTC clock issue without touching chibios, refer to the link for this bug
 # https://forum.chibios.org/viewtopic.php?f=35&t=6197
 OPT_DEFS += -DRCC_APBENR1_RTCAPBEN
+CAPS_WORD_ENABLE = yes
